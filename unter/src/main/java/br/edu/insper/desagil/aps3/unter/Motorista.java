@@ -7,6 +7,6 @@ public class Motorista extends Usuario{
 
     @Override
     public void avalia(Corrida corrida, int nota){
-
+        corrida.avaliaPassageiro(nota);
     }
 }
