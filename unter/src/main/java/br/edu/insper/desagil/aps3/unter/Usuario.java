@@ -16,8 +16,8 @@ public abstract class Usuario {
     public String getNome(){
         return nome;
     }
-    public void setNome(){
-        this.nome = nome;
+    public void setNome(String novoNome){
+        this.nome = novoNome;
     }
 
     public abstract void avalia(Corrida corrida, int nota);

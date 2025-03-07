@@ -5,12 +5,7 @@ public class Passageiro extends Usuario{
         super(cpf, nome);
     }
     @Override
-    public avalia(Corrida corrida, int nota){
-        if (nota < 1) {
-            nota = 1;
-        } else if (nota > 5) {
-            nota = 5;
-        }
-        corrida.avaliaMotorista(nota);
+    public void avalia(Corrida corrida, int nota){
+
     }
 }

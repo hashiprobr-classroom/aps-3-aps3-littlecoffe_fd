@@ -45,7 +45,6 @@ public class CentralTest {
         c.adiciona(co2);
         co3.avaliaPassageiro(3);
         c.adiciona(co3);
-
         assertEquals(4.5,c.mediaPassageiros("12345678900"));
     }
     @Test
@@ -69,7 +68,7 @@ public class CentralTest {
         c.adiciona(co2);
         co3.avaliaMotorista(1);
         c.adiciona(co3);
-
-        assertEquals(4.5,c.mediaPassageiros("12345678900"));
+        co4.avaliaMotorista(1);
+        assertEquals(2.5,c.mediaMotoristas("12345678900"));
     }
 }

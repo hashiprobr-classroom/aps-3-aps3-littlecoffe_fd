@@ -35,11 +35,9 @@ public class Corrida {
 
     private int arrumaNota(int nota){
         int resultado = nota;
-
         if (nota < 1){
             resultado = 1;
         }
-
         else if (nota > 5){
             resultado = 5;
         }
