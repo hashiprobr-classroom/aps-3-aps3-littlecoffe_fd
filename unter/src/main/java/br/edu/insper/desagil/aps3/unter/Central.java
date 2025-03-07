@@ -6,7 +6,7 @@ import java.util.List;
 public class Central {
     private List<Corrida> corridas;
 
-    public Central(List<Corrida> corridas){
+    public Central(){
         this.corridas = new ArrayList<>();
     }
 

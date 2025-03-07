@@ -6,7 +6,7 @@ public class Corrida {
     private int notaP;
     private int notaM;
 
-    public Corrida(Passageiro passageiro, Motorista motorista, int notaP, int notaM){
+    public Corrida(Passageiro passageiro){
         this.passageiro = passageiro;
         this.motorista = null;
         this.notaP = 0;
